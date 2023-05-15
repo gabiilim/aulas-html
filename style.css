@@ -1,0 +1,47 @@
+*{
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images7/Celeste-Wallpaper-Free-Download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content:center; 
+   align-items: center
+    }
+    main{
+      width: auto;
+      position: relative;
+    }
+  form{
+    background: rgba(114, 74, 223, 0.521);
+    display: flex;
+    flex-direction:column;
+    padding: 40px 24px;
+  }
+  input{
+   width: 300px;
+   margin: 10px 0;
+   height: 50px;
+   border-radius: 10px;
+   padding-left: 10px;
+
+  }
+
+  .zapzap{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0%;
+  
+  }
+  .btn-personalizado{
+    background-color: rgb(155, 111, 190);
+    height: 50Spx;
+    margin-top:10 ;
+  }
